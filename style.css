@@ -1,0 +1,608 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #003366;
+}
+
+
+
+header {
+  background: #fdfdfd;
+  padding: 20px 0;
+  border-color: blue;
+
+  }
+
+
+
+
+.caixa{
+  position: fixed;
+  background-color: #f2f2f2;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  padding: 10px;
+  z-index: 1;
+
+}
+
+nav{
+  position: absolute;
+  top: 45px;
+  right: 150px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #003366;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #c69c6d;
+  text-decoration: underline;
+}
+
+.menu_mobile{
+  display: none;
+}
+
+
+.caixa img {
+
+  width: 15%;
+  padding: 2px;
+  margin-left: 150px;
+
+}
+.menu_flutuante{
+  display: none;
+    z-index: 1;
+    position: absolute;
+    background: grey;
+    width: 200px;
+    height: auto;
+  }
+
+  .menu_flutuante li{
+    padding: 10px;
+  }
+
+
+}
+
+.nossos_clientes{
+ 
+  background: #fdfdfd;
+ height: 200px;
+  margin: 20px;
+padding: 20px;
+
+}
+
+.nossos_clientes h3{
+  font-size: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.carrossel{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.nossos_clientes_logos{
+  display: flex;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-right: 80px;
+}
+
+
+
+
+
+.contato1 div{
+
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin:20px;
+  justify-content: center;
+  }
+
+  .contato_conteudo{
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.contato__botao h3{
+  font-size: 2em;
+
+
+}
+
+.contato__botao ul{
+	width: 100%;
+	padding: 10px;
+	margin-left: 190px;
+	margin-top:60px;
+}
+
+.contato__botao{
+	display:flex;
+}
+
+.contato__botao button{
+  width: 180px;
+  height: 30px;
+  cursor:pointer;
+  background-color:#003366;
+  color: #c69c6d;
+  border-radius: 15px;
+  border: none;
+  transition: 0,5s all;
+
+  margin:5px;
+}
+
+.contato__botao button:hover{
+  background-color: #f2f2f2;
+  border-style:solid;
+
+
+}
+
+
+.contato__imagem img{
+
+	width: 500px;
+}
+
+
+
+
+.principal{
+  padding: 3em 0;
+  background: #566166;
+  width: 940px;
+  justify-content: center;
+  margin:0 auto;
+
+
+}
+
+.principal p{
+  margin: 0 0 1em;
+  }
+
+  .principal strong{
+    font-weight: bold;
+  }
+
+  .principal em{
+    font-style: italic;
+  }
+
+  .titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+  margin:0 auto;
+  clear: center;
+}
+
+.nosso_time{
+background-color: #fdfdfd;
+  margin: 20px;
+}
+.time ul{
+display: flex;
+margin: 0 auto;
+justify-content: center;
+}
+
+.time a{
+  color: #003366;
+ text-decoration: none;
+}
+
+
+.time img{
+text-align: center;
+width:200px;
+border-radius: 200px;
+margin:20px;
+opacity: 100%;
+}
+
+.time img:hover{
+  opacity: 50%;
+
+
+}
+
+
+.time p{
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+.time p:hover{
+  font-size:18px;
+}
+
+.depoimentos{
+  background: #f2f2f2;
+  margin: 20px;
+
+}
+
+.depoimento-clientes{
+align-items:center;
+display: flex;
+justify-content: center;
+
+}
+
+.depoimento-clientes img{
+text-align: center;
+width:100px;
+border-radius: 200px;
+padding: 10px;
+}
+
+.depoimento-clientes p{
+  color:#003366;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+
+
+
+/* Contact Section
+--------------------------------*/
+.contato{
+align-items: center;
+display: flex;
+padding: 5px;
+
+
+}
+
+.mapa{
+
+width: 50%;
+padding: 10px;
+
+}
+
+.endereco{
+  display: block;
+  font-size: 14px;
+  margin: 10px;
+
+}
+
+.endereco p{
+  margin:5px;
+}
+
+.contato a{
+  color: #003366;
+ text-decoration: none;
+}
+
+.contato a:hover{
+  font-size: 18px;
+}
+
+.form {
+
+height: auto;
+margin-top: 20px;
+padding: 5px;
+background-image: url("imagens/blog.png");
+background-repeat: no-repeat;
+
+ }
+
+ .fala{
+  text-align: center;
+  color: #c69c6d;
+  font-size: 2em;
+
+  padding: 20px;
+  margin:0 auto;
+  clear: center;
+ }
+ .form{
+  text-align: center;
+
+ }
+
+ }
+ .formulario{
+  width: 500px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.form input{
+
+  width: 500px;
+  height: 40px;
+  border-color: #003366;
+  border-radius: 5px;
+  margin:3 3 3 3px;
+  }
+
+
+.form textarea{
+  width:500px;
+  height: 80px;
+  border-color: #003366;
+  border-radius: 5px;
+  margin:3 3 3 3px;
+}
+
+.form button{
+  align-content:center;
+  width: 150px;
+  height: 30px;
+  background-color:#003366;
+  color: #c69c6d;
+  border-radius: 15px;
+  border: none;
+  transition: 0,5s all;
+  cursor: pointer;
+}
+
+.form button:hover{
+  background-color: #f2f2f2;
+  border-style:solid;
+
+}
+
+
+
+footer{
+   background:#003366;
+   padding: 20px;
+   text-align: center;
+
+ }
+
+ .redes{
+  margin-top: 20px;
+ }
+
+ .redes p{
+  margin:10px;
+  font-size: 13px;
+  color:#c69c6d;
+ }
+
+.redes a{
+font-size:30px;
+  margin: 10px;
+  color:#c69c6d;
+}
+
+.copyright{
+  font-size: 13px;
+  color: #c69c6d;
+  margin: 20px 0 0;
+}
+
+
+
+
+
+@media screen and (max-width: 375px){
+
+
+.caixa{
+  width: 375px;
+  height: 50px;
+  margin:auto;
+  padding: 5px;
+}
+
+
+ .caixa img{
+  width: 200px;
+  margin-left:10px;
+  pa
+}
+
+.menu{
+  display: none;
+ }
+
+
+
+.menu_flutuante{
+  display: none;
+    z-index: 1;
+    position: fixed;
+    background: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    height: auto;
+    margin: auto;
+  }
+
+.icone_x{
+  position: absolute;
+    margin:10px 10px 0 180px;
+  }
+
+  .menu_flutuante li{
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    
+  }
+
+.menu_flutuante a{
+
+  text-decoration: none;
+  color:#003366;
+}
+
+  
+
+ nav{
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right:20px;
+
+}
+.menu_mobile {
+  display:flex;
+ }
+
+
+.nossos_clientes{
+  width: 100%;
+  margin:auto;
+  padding: 0px;
+text-align: center;
+}
+
+.nossos_clientes h3{
+  margin-top:25px;
+  padding: 10px;
+}
+
+.nossos_clientes_logos img{
+  padding: 20px;
+}
+
+.contato1 div{
+  width: 100%;
+  margin:auto;
+  padding: 0px;
+}
+
+ .contato_conteudo{
+   display:block;
+   width: 100%;
+   padding: 0px;
+   margin: auto;
+}
+
+.contato__botao ul{
+  width:375px;
+  margin:auto;
+ text-align: center;
+}
+.contato__botao h3{
+  width:auto;
+  font-size: 24px;
+
+}
+
+.contato__botao li{
+  width: auto;
+
+}
+
+.contato__imagem img{
+  width: 250px;
+
+  margin:auto;
+  padding: 10 0 0 50;
+}
+
+.nosso_time {
+
+  width: 100%;
+  margin:auto;
+ }
+
+ .titulo-principal{
+  margin-top:25px;
+  padding: 10px;
+ }
+
+ .time p{
+  font-size: 14px;
+  padding: 5px;
+
+ }
+
+.time img{
+  width: 90px;
+  margin:5px;
+}
+
+.depoimentos{
+  width: 100%;
+  margin:auto;
+  text-align: center;
+}
+
+.depoimentos p{
+  width: 300px;
+}
+
+
+.contato{
+    display:block;
+    width: 100%;
+    margin: auto;
+}
+
+  .mapa{
+    width: 100%;
+    margin:auto;
+    padding: 0px;
+  }
+
+  .endereco{
+    display: block;
+  }
+
+.form input {
+    width:100%;
+    margin:auto;
+}
+
+  .formulario {
+    width:100%;
+    margin:auto;
+  }
+
+ .fala{
+margin-top:25px;
+  padding: 10px;
+}
+
+.form textarea{
+  width: 100%;
+}

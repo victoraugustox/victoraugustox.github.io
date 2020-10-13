@@ -1,0 +1,124 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Amui, Castro & Ariano Advogados </title>
+
+
+    <link rel="stylesheet" href="reset2.css">
+    <link rel="stylesheet" href="calculadoras-style.css">
+    <link rel="stylesheet" href="Banner.css">
+    <link rel="stylesheet" href="artigos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/f5cda9a8c6.js" crossorigin="anonymous"></script>
+  
+  </head>
+
+  <body class="app">
+    <header class= "cabecalho">
+      <div class="caixa">
+               <div class="logo"> <a href="index.html" > <img src="imagens/logo-ACA-site.png"> </a> </div>
+                <nav>
+                 <ul class="menu">
+                     <li><a href="#home"> Home</a> </li>
+                     <li><a href="#artigos"> Artigos</a> </li>
+					 <li><a href="#nosso_time"> Nosso time </a> </li>
+                     <li><a href="#contact"> Contato </a> </li>
+                     </ul>
+                   <ul class="menu_mobile">
+                     <li class="icone"><a href="index.html"><i class="fas fa-chevron-left"></i></a> </li>
+                   </ul>
+                  </nav>
+              </div>
+              
+   </header>
+    
+   <section class="conteudo">
+     <div>
+       <h1 class="titulo_principal"> Calcule agora o seu tempo de contribuição.</h1>
+        </div>
+        <img class="imagem" src="imagens/04.jpg">
+   </section>     
+
+
+
+
+<!-- thumbnails -->
+
+<div id="thumbnails">
+ 
+  <div class="thumbnails">
+      <div id="cj-widget" data-src="https://app.calculojuridico.com.br/embedded/contribution_time_calculation_widgets/start?rel=lp"></div>
+        <script type="text/javascript" async src="https://app.calculojuridico.com.br/script/contribution_time_widget.js"></script>
+  </div>
+ 
+<div class="thumbnails">
+      <div id="cj-widget" data-src="https://app.calculojuridico.com.br/embedded/previdenciary_factor_calculations/start?ref=lp"></div>
+        <script type="text/javascript" async src="https://app.calculojuridico.com.br/script/previdenciary_factor_widget.js"></script>
+  </div>
+
+  <div class="thumbnails">
+      <div id="cj-widget" data-src="https://app.calculojuridico.com.br/embedded/insurance_status_calculations/start?ref=lp"></div>
+        <script type="text/javascript" async src="https://app.calculojuridico.com.br/script/insurance_status_widget.js"></script>
+  </div>
+
+
+</div>
+<!-- thumbnails -->
+
+
+
+            <div class="form">
+            	
+				<div class="fala"> Fale conosco</div>
+             
+
+             <div class="formulario">
+                
+                
+              <form action="processa.php" method="post" role="form"  >
+                
+                
+                  <div>
+                     <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+                 </div>
+                     <div>
+                  	<input type="email" class="form-control" name="email" id="email" placeholder="Seu melhor E-mail" data-rule="email" data-msg="Please enter a valid email" />
+                  </div>
+
+                  <div>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                 </div>
+                 <div>
+                  
+                	<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+                </div>
+                  
+                <div class="text-center"><button type="submit" title="Enviar">Enviar</button>
+                </div>
+
+              </form>
+            </div>
+        </div>
+          
+     <!-- #contact -->
+
+</main>
+
+   <footer class="footer">
+   	<div class="redes">
+   		<div><p>Siga-nos</p></div>
+   		<div>
+   		<a href="https://www.facebook.com/Amui-Castro-Ariano-Advogados-630153770950116/"><i class="fab fa-facebook-f"></i></a>
+   		<a href="https://www.instagram.com/amuicastroarianoadvogados/"><i class="fab fa-instagram"></i></a>
+   		</div>
+   	</div>
+     <img src="imagens/ac&a.png">
+     <p class="copyright"> &copy; Copyright Amui, Castro & Ariano Advogados </p>
+   </footer>
+
+</body>
+</html>
